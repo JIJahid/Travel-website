@@ -36,103 +36,27 @@ nav{
 }
 
 
-/* 
+/*hero section start*/
 #hero{
     width: 100%;
     height: 500px;
-    margin-top: 100px;
     border-radius: 16px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     background: url(./img/hero.png);
-    background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 .hero-container{
-    width: 1170px;
-    min-height: 500px;
-}
-.container{
     width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    border-radius: 16px;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%)
-}
-.container div{
-    text-align: center;
-    background: none !important;
-}
-.container h1{
-    color: #FFF;
-    font-size: 64px;
-    font-weight: 800;
-    background: none;
-}
-.container p{
-    color: #FFF;
-    font-size: 16px;
-    font-weight: 400;
-    background: none;
-}
-
-.items{
-    width: 100%;
-    height: 200px;
-} */
-
-
-#hero{
-    width:100%;
-    height:500px;
-    margin: 0 auto;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid red;
-}
-.hero-container{
-    width: 1170px;
     height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 16px;
-    background: url(./img/hero.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.hero-overlay{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+
+
 }
-.hero-content, .hero-forms{
-    max-width: 650px;
-    height: 400px;
-    margin: 10px;
-    background: none;
-    border: 1px solid white;
-}
-
-
-
-
-
-
-
-
 
 /*main*/
 
@@ -151,12 +75,10 @@ main{
     justify-content: center;
     align-items: center;
     display: flex;
-    border: 1px solid red;
 }
 #tours div{
     width: 50%;
     height: auto;
-    border: 1px solid black;
     padding: 10px;
     justify-content: center;
     align-items: center;
@@ -201,7 +123,7 @@ main{
     text-align: end;
 }
 .tours-img img{
-    width: 80%;
+    width: 95%;
 }
 
 
