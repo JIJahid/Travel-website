@@ -5,6 +5,7 @@
 
     nav{
         display: flex;
+        margin-top: 25px;
     }
     .nav-title h1{
         font-size: 30px;
@@ -16,6 +17,42 @@
         display: block;
     }
 
+
+
+
+
+/*hero*/
+    #hero{
+        margin-top: 25px;
+    }
+    .hero-content h1{
+        font-size: 36px;
+        font-weight: 800;
+    }
+
+
+    main{
+        margin-top: 25px;
+    }
+
+    /*tours*/
+    .tours-content h1{
+        font-size: 30px;
+        padding: 20px 0;
+    }
+    .tours-content p{
+        font-size: 15px;
+    }
+    .tours-content li{
+        font-size: 15px;
+    }
+    .btn-primary{
+        margin-top: 20px;
+    }
+
+
+    /*destination*/
+   
     .des-row-1{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -44,6 +81,9 @@
     }
 
     /*--place--*/
+    #place{
+        margin-top: 25px;
+    }
     .place-container{
         flex-wrap: wrap;
     }
@@ -54,6 +94,13 @@
 
     .place-container div:first-child{
         margin-bottom: 25px;
+    }
+
+    .place-container h1{
+        font-size: 25px;
+    }
+    .place-container p{
+        font-size: 15px;
     }
 
     /*--choose--*/
@@ -77,21 +124,38 @@
 
 
 
-@media screen  and (max-width:576px){
-
-    form input{
-        width: 100%;
+@media screen  and (max-width:600px){
+    /*nav start*/
+    nav{
+        display: flex;
+        margin-top: 25px;
+    }
+    .nav-title h1{
+        font-size: 30px;
     }
 
-    form select{
+
+
+    /*shared styles*/
+    .title{
         width: 100%;
+        padding: 10px;
+    }
+    .title h1{
+        font-size: 30px;
+    }
+    .title p{
+        font-size: 15px;
+        padding-bottom: 10px;
     }
     
-    form button{
-        width: 94%;
+    main{
+        margin-top: 25px;
     }
 
-    /*--tour--*/
+
+
+    /*tours*/
     #tours{
         max-width: 100%;
         height: auto;
@@ -101,15 +165,54 @@
     #tours div{
         width: 100%;
     }
-
     .tours-content{
         margin-bottom: 30px;
     }
-    
     .tours-img img{
         width: 100% !important;
     }
+    .tours-content h1{
+        font-size: 30px;
+        padding: 20px 0;
+    }
+    .tours-content p{
+        font-size: 15px;
+    }
+    .tours-content li{
+        font-size: 15px;
+    }
+    .btn-primary{
+        margin-top: 20px;
+    }
 
+
+
+
+
+
+
+
+    
+    form input{
+        width: 100%;
+    }
+    form select{
+        width: 100%;
+    }
+    
+    form button{
+        width: 94%;
+    }
+    
+
+  
+
+
+  
+    /*destination*/
+    #destination{
+        margin:20px 0px;
+    }
 
 
 
