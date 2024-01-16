@@ -1,73 +1,160 @@
 
 
-@media screen  and (max-width:576px){
+@media screen  and (max-width: 800px) {
+
+
     nav{
-    display: flex;
-}
-.nav-title h1{
-    font-size: 30px;
-}
-.nav-items ul{
-    display: none;
-}
-.nav-items i{
-    display: block;
+        display: flex;
+    }
+    .nav-title h1{
+        font-size: 30px;
+    }
+    .nav-items ul{
+        display: none;
+    }
+    .nav-items i{
+        display: block;
+    }
+
+    .des-row-1{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .des-row-2{
+        grid-template-columns: 100%;
+    }
+    
+    .des-row-2 div{
+        margin: 12.5px 0px;
+    }
+
+    .row-2-1{
+        width: calc(100% - 0px);
+    }
+    .row-2-2{
+        width: calc(100% - 0px);
+    }
+
+    .des-row-3{
+        grid-template-columns: 100%;
+    }
+
+    .row-3-2{
+        width: calc((100% - 0px)/1);
+    }
+
+    /*--place--*/
+    .place-container{
+        flex-wrap: wrap;
+    }
+
+    .place-container div{
+        width: 100%;
+    }
+
+    .place-container div:first-child{
+        margin-bottom: 25px;
+    }
+
+    /*--choose--*/
+    .choose-us-container div{
+        width: 100%;
+    }
+
+    /*--newsletter--*/
+    .newsletter-container div{
+        width: 100% !important;
+    }
+
+    .news-content{
+       margin-bottom: 25px;
+    }
 }
 
 
 
 
+@media screen  and (max-width:576px){
+
+    form input{
+        width: 100%;
+    }
+
+    form select{
+        width: 100%;
+    }
+    
+    form button{
+        width: 94%;
+    }
+
+    /*--tour--*/
+    #tours{
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    #tours div{
+        width: 100%;
+    }
+
+    .tours-content{
+        margin-bottom: 30px;
+    }
+    
+    .tours-img img{
+        width: 100% !important;
+    }
 
 
-/*discount*/
-#discount{
-    width: 100%;
-    height: auto;
-}
-.discount-title{
-    width: 80%;
-    border: 1px solid red;
-}
-.discount-title h1{
-    font-size: 20px;
-    padding: 5px;
-}
-.discount-title p{
-    font-size: 14px;
-    line-height: 24px; 
-}
-.discount-list{
-    width: 100%;
-    height: 600px;
-    align-items: end;
-    justify-content: center;
-}
-.discount-list div{
-    width: 70%;
-    height: auto;
-    padding: 10px;
-}
-.discount-list h4, i{
-    font-size: 16px;
-    margin: 5px;
-}
-.discount-list h2{
-    font-size: 20px;
-    margin:  10px;
-}
-.discount-list p{
-    font-size: 14px;
-    margin: 0;
-}
-.discount-list h3{
-    font-size: 16px;
-    font-weight: 600;
-}
-.discount-list button{
-    font-size: 16px;
-    font-weight: 600;
-}
-
-
+    /*discount*/
+    #discount{
+        width: 100%;
+        height: auto;
+    }
+    .discount-title{
+        width: 80%;
+        border: 1px solid red;
+    }
+    .discount-title h1{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .discount-title p{
+        font-size: 14px;
+        line-height: 24px; 
+    }
+    .discount-list{
+        width: 100%;
+        height: 600px;
+        align-items: end;
+        justify-content: center;
+    }
+    .discount-list div{
+        width: 70%;
+        height: auto;
+        padding: 10px;
+    }
+    .discount-list h4, i{
+        font-size: 16px;
+        margin: 5px;
+    }
+    .discount-list h2{
+        font-size: 20px;
+        margin:  10px;
+    }
+    .discount-list p{
+        font-size: 14px;
+        margin: 0;
+    }
+    .discount-list h3{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .discount-list button{
+        font-size: 16px;
+        font-weight: 600;
+    }
 
 }
