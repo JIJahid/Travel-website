@@ -5,7 +5,7 @@
 
     nav{
         display: flex;
-        margin-top: 25px;
+        margin-top: 40px;
     }
     .nav-title h1{
         font-size: 30px;
@@ -21,19 +21,7 @@
 
 
 
-/*hero*/
-    #hero{
-        margin-top: 25px;
-    }
-    .hero-content h1{
-        font-size: 36px;
-        font-weight: 800;
-    }
 
-
-    main{
-        margin-top: 25px;
-    }
 
     /*tours*/
     .tours-content h1{
@@ -81,9 +69,7 @@
     }
 
     /*--place--*/
-    #place{
-        margin-top: 25px;
-    }
+   
     .place-container{
         flex-wrap: wrap;
     }
@@ -124,6 +110,8 @@
 
 
 
+
+
 @media screen  and (max-width:600px){
     /*nav start*/
     nav{
@@ -134,7 +122,19 @@
         font-size: 30px;
     }
 
+/*hero*/
+    #hero{
+    margin-top: 25px;
+    }
+    .hero-content h1{
+    font-size: 36px;
+    font-weight: 800;
+    }
 
+
+    main{
+    margin-top: 25px;
+    }
 
     /*shared styles*/
     .title{
@@ -186,6 +186,16 @@
     }
 
 
+     /*destination*/
+     #destination{
+        margin:20px 0px;
+    }
+
+/*choose-us*/
+    #choose-us{
+        margin: 20px 0;
+    }
+    
 
 
 
@@ -209,19 +219,16 @@
 
 
   
-    /*destination*/
-    #destination{
-        margin:20px 0px;
-    }
-
+   
 
 
 
 /*package*/
-
+#package{
+    margin-top: 25px;
+}
 .package-item img{
-    width: 100%;
-    height: 100%;
+
     border-radius: 16px 16px 0px 0px;
 }
 
@@ -269,6 +276,7 @@
     #discount{
         width: 100%;
         height: auto;
+        margin-top: ;
     }
     .discount-title{
         width: 80%;
@@ -313,5 +321,33 @@
         font-size: 16px;
         font-weight: 600;
     }
+
+
+
+
+
+/*place*/
+    #place{
+        margin: 25px 0px;
+    }
+
+/*newsletter*/
+#newsletter{
+    margin-top: 25px;
+}
+
+
+/*footer section start*/
+
+footer{
+    margin-top: 25px;
+}
+.footer-container{
+    padding: 0px 20px;
+}
+.footer-container .line{
+    margin: 25px auto;
+}
+
 
 }
