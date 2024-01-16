@@ -28,13 +28,6 @@ nav div{
     width: 30%;
 }
 
-
-.nav-title h1{
-    color: #FF5400;
-    font-size: 36px;
-    font-weight: 800;
-}
-
 .nav-items {
     display: flex;
     align-items: center;
@@ -65,7 +58,7 @@ nav div{
 }
 
 .nav-items .active{
-    color: #FF5400;
+    color:  #E8604C;
 }
 
 .nav-items li a:last-child{
@@ -175,7 +168,7 @@ form button{
     border-radius: 5px;
     border: none;
     color: white;
-    background: #FF5400;
+    background: #E8604C;
     font-size: 16px;
 }
 
@@ -249,7 +242,7 @@ main{
     color: white;
     border: none;
     border-radius: 8px;
-    background: #FF5400;
+    background: #E8604C;
 }
 
 .tours-img{
@@ -326,6 +319,9 @@ main{
 .row-2-1{
     background-repeat: no-repeat !important;
     background-position: center center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-size: cover !important;
     background: url(./img/Rectangle\ 6.png);
     width: calc(100% - 25px);
@@ -333,7 +329,9 @@ main{
 .row-2-2{
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    background-position: center center !important;
+    background-position: center center !important;display: flex;
+    justify-content: center;
+    align-items: center;
     background: url(./img/Rectangle\ 7.png);
     width: calc(100% - 25px);
 }
@@ -342,7 +340,9 @@ main{
     background-position: center!important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    background: url(./img/Rectangle9.png);
+    background: url(./img/Rectangle9.png);display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .des-row-3{
@@ -380,6 +380,7 @@ main{
     font-weight: 800;
     color: white;
 }
+.des-row-2 
 /*----*/
 
 
@@ -571,7 +572,7 @@ main{
 .discount-list i{
     font-size: 20px;
     margin: 0 5px;
-    color: #FF5400;
+    color: #E8604C;
 }
 .discount-list h2{
     color: #131318;
@@ -587,7 +588,7 @@ main{
     line-height: 26px; 
 }
 .discount-list h3{
-    color: #FF5400;
+    color: #E8604C;
     font-size: 20px;
     font-weight: 800;
     margin: 5px 15px;
@@ -602,7 +603,7 @@ main{
     width: 40%;
     padding: 10px;
     border-radius: 8px;
-    background: #FF5400;
+    background: #E8604C;
 }
 
 
@@ -667,7 +668,7 @@ main{
         color: white;
         border: none;
         border-radius: 8px;
-        background: #FF5400;
+        background: #E8604C;
 }
 
 .place-container img{
@@ -713,7 +714,7 @@ main{
     justify-content: center;
     align-items: center;
     border-radius: 16px;
-    border: 1px solid #FF5400;
+    border: 1px solid #E8604C;
 }
 
 .news-content div{
@@ -736,9 +737,9 @@ main{
 }
 
 .news-content input{
-    width: 100%;
+    width: 94%;
     height: 25px;
-    padding: 15px 0px;    
+    padding: 15px ;    
     border-radius: 8px;
     border: none;
     outline: none;
@@ -761,16 +762,38 @@ main{
     border-radius: 8px;
     border: none;
     outline: none;
-    background: #FF5400;
+    background: #E8604C;
 }
 .new-img{
     width: 100%;
     min-height: 420px;
     border-radius: 16px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
     background: url(./img/news.png);
+    position: relative;
+}
+.new-saveup{
+    max-width: 300px !important;
+    height: auto !important;
+    border-radius: 16px;
+    background: #E8604C;
+    z-index: 1111;
+    position: absolute;
+    bottom: 50px;
+    padding: 30px 5px;
+    right: 10px;
+    color: white;
+    transform: rotate(-19.628deg);
+}
+.new-saveup h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.new-saveup h2{
+    font-size: 25px;
+    font-weight: 700;
 }
 /*----*/
 
@@ -800,7 +823,7 @@ footer{
     height: auto;
     justify-content: center;
     align-items: center;
-    padding: 50px 20px;
+    padding: ;
     text-align: center;
 }
 .footer-content{
@@ -808,19 +831,14 @@ footer{
     height: auto;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding-top: 50px;
     
 }
 
-.footer-container h1{
-    font-size: 32px;
-    font-weight: 800;
-    padding: 10px;
+.footer-container img{
+    padding-bottom: 20px;
 }
 
-.footer-container h1 span{
-    color: #FF5400;
-}
 
 .footer-container p{
     color: #5A5A5D;
@@ -837,21 +855,21 @@ footer{
 }
 
 .footer-content i:hover{
-    color: #FF5400;
+    color: #E8604C;
     transition: 1s;
 }
 
 .footer-container .line{
-    width: 100%;
+    max-width: 870px;
     height: 1px;
     text-align: center;
-    margin: 10px auto;
-    background: gray;
+    margin: 50px auto;
+    background: rgba(19, 19, 24, 0.10);
 }
 
 .copyright {
     text-align: center;
-    padding: 20px;
+ padding-bottom: 50px;
 }
 
 .copyright h2{

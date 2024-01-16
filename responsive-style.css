@@ -69,6 +69,9 @@
     .news-content{
        margin-bottom: 25px;
     }
+    .news-content input{
+        width: 91%;
+    }
 }
 
 
