@@ -1,0 +1,73 @@
+
+
+@media screen  and (max-width:576px){
+    nav{
+    display: flex;
+}
+.nav-title h1{
+    font-size: 30px;
+}
+.nav-items ul{
+    display: none;
+}
+.nav-items i{
+    display: block;
+}
+
+
+
+
+
+
+/*discount*/
+#discount{
+    width: 100%;
+    height: auto;
+}
+.discount-title{
+    width: 80%;
+    border: 1px solid red;
+}
+.discount-title h1{
+    font-size: 20px;
+    padding: 5px;
+}
+.discount-title p{
+    font-size: 14px;
+    line-height: 24px; 
+}
+.discount-list{
+    width: 100%;
+    height: 600px;
+    align-items: end;
+    justify-content: center;
+}
+.discount-list div{
+    width: 70%;
+    height: auto;
+    padding: 10px;
+}
+.discount-list h4, i{
+    font-size: 16px;
+    margin: 5px;
+}
+.discount-list h2{
+    font-size: 20px;
+    margin:  10px;
+}
+.discount-list p{
+    font-size: 14px;
+    margin: 0;
+}
+.discount-list h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+.discount-list button{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+}
