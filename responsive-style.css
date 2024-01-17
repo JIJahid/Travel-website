@@ -88,6 +88,12 @@
     .place-container p{
         font-size: 15px;
     }
+    .place-img{
+        width: 100% !important;
+    }
+    .place-img h2{
+        padding: 0 20%;
+    }
 
     /*--choose--*/
     .choose-us-container div{
@@ -330,6 +336,15 @@
     #place{
         margin: 25px 0px;
     }
+    .place-img{
+    width: 100% !important;
+    }
+    .place-img h2{
+    padding: 0 10%;
+    }
+
+
+
 
 /*newsletter*/
 #newsletter{
