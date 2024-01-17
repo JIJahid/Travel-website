@@ -104,7 +104,9 @@
     .newsletter-container div{
         width: 100% !important;
     }
-
+    .new-saveup{
+        width: 80% !important;
+    }
     .news-content{
        margin-bottom: 25px;
     }
@@ -167,6 +169,7 @@
         height: auto;
         display: flex;
         flex-direction: column;
+        margin-top: 20px;
     }
     #tours div{
         width: 100%;
@@ -234,36 +237,35 @@
     margin-top: 25px;
 }
 .package-item img{
-
+    max-width: 370px !important;
     border-radius: 16px 16px 0px 0px;
 }
+.package-img{
 
-.package-item >div{
+    border-radius: 16px 16px 0px 0px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.package-item> div{
     width: 370px;
-    height: 220px;
+    height: auto;
     text-align: center;
     background: rgba(19, 19, 24, 0.05);
     justify-content: center !important;
     align-items: center !important;
 }
-.item{
-    padding: 10px;
-}
 .item div{
-    padding: 20px;
     text-align: center !important;
 }
 .item span{
-    padding: 10px;
+    padding: 5px;
     justify-content: center;
     text-align: center !important;
 }
 .item h1{
     font-size: 22px;
-    padding: 15px 10px;
 }
 .item-2{
-    padding: 10px;
+    padding-top: -120px !important;
     border-radius: 0px 0px 16px 16px;
 }
 .item h2{
@@ -282,7 +284,7 @@
     #discount{
         width: 100%;
         height: auto;
-        margin-top: ;
+        margin-top: 10px;
     }
     .discount-title{
         width: 80%;
@@ -335,6 +337,7 @@
 /*place*/
     #place{
         margin: 25px 0px;
+        margin-top: -100px;
     }
     .place-img{
     width: 100% !important;
@@ -351,6 +354,9 @@
     margin-top: 25px;
 }
 
+.new-saveup{
+    width: 70% !important;
+}
 
 /*footer section start*/
 

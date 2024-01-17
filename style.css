@@ -7,7 +7,7 @@
 /*shared style*/
 
 .title{
-    width: 70%;
+    max-width: 80%;
     margin: 0 auto;
     height: auto;
     justify-content: center;
@@ -29,8 +29,8 @@
     margin-bottom: 20px;
 }
 .btn-primary{
-    width: 180px;
-    cursor: pointer;
+    width: 180px !important;
+    cursor: pointer !important;
     margin-top: 50px;
     padding: 10px;
     font-size: 18px;
@@ -56,12 +56,17 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 5px;
 }
 
-nav div{
+nav .nav-title{
     width: 30%;
+    justify-content: center !important;
+    align-items: center !important;
 }
-
+.nav-title img{
+    padding-top:5px ;
+}
 .nav-items {
     display: flex;
     align-items: center;
@@ -100,7 +105,6 @@ nav div{
 }
 
 /*----*/
-
 
 
 
